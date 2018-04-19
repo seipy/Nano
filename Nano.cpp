@@ -192,7 +192,7 @@ void Nano::playSound(int index)
 
 void Nano::setSprite(int index, std::string file)
 {
-	m_Sprites[index] = SDL_LoadBMP_RW(loadFromArchive(file.c_str()), 1);
+	m_Sprites[index] = SDL_ConvertSurface(SDL_LoadBMP_RW(loadFromArchive(file.c_str()), 1), m_WinSurface->format, 0);
 	SDL_SetColorKey(m_Sprites[index], SDL_TRUE, SDL_MapRGB(m_WinSurface->format, 255, 0, 255));
 }
 

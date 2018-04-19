@@ -21,6 +21,10 @@ Licenses:
 
 Licenses for all the libraries used are in LICENSES.txt, and this projects license (BSD) is in LICENSE.txt (I know, confusing names)
 
+Creating for:
+
+As of yet, no development guides are available. These will be made after LD41, because I'm a bit busy right now...
+
 Extra notes:
 
 If you happen to have a (windows) static-linkable copy of SDL2_Mixer built with libOgg and libVorbis statically linked, please... tell me? (idk, I don't like dlls)
